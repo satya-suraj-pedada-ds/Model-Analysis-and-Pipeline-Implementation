@@ -1,0 +1,5 @@
+Model,Accuracy,Precision,Recall,F1,Train_Time_s,Latency_ms_per_prediction,Model_Size_KB
+Small model (LogisticRegression),0.55,0.5,0.222,0.308,0.033,1.323,1.9
+"Larger model (RandomForest, 300 trees)",0.45,0.375,0.333,0.353,0.349,9.749,1232.7
+Mixtral (fine-tuned large model),0.65,0.565,0.444,0.379,0.577,11.119,1448.6
+BERT (small classifier),0.75,0.775,0.555,0.399,0.742,13.789,1668.9
